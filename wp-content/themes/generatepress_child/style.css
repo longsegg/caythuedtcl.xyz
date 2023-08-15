@@ -1,0 +1,110 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+#header {
+  position: fixed;
+}
+.page-template .container {
+  padding: 0;
+}
+/* Cay phan hang form */
+.archive .wrap {
+  padding: 10px;
+  padding-top: 30px;
+  border-radius: 10px;
+  background: #fd6e1d;
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(#000a0f),
+    to(#041521)
+  );
+  background: -webkit-linear-gradient(top, #000a0f, #041521);
+  background: -moz-linear-gradient(top, #000a0f, #041521);
+  background: -ms-linear-gradient(top, #000a0f, #041521);
+  background: -o-linear-gradient(top, #000a0f, #041521);
+}
+
+.archive .form-group label {
+  color: #fff;
+}
+.archive .form-group label > span {
+  color: red;
+}
+form input.form-control {
+  border-radius: 0.25rem;
+}
+.ct-form-checkbox {
+  align-items: center;
+}
+.ct-form-checkbox label {
+  margin-bottom: 0;
+}
+.ct-form-price {
+  color: #fff;
+}
+.ct-form-price > p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+button.ct-button {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  padding: 5px 35px;
+  border-radius: 5px;
+  background: #bd2121;
+  background: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(#612e2d),
+    to(#bd2121)
+  );
+  background: -webkit-linear-gradient(top, #612e2d, #bd2121);
+  background: -moz-linear-gradient(top, #612e2d, #bd2121);
+  background: -ms-linear-gradient(top, #612e2d, #bd2121);
+  background: -o-linear-gradient(top, #612e2d, #bd2121);
+}
+
+.ct-title h2 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+#billing_country_field {
+  display: none;
+}
+/* SINGLE */
+.woocommerce div.product form.cart {
+  display: none;
+}
+.woocommerce div.product form.cart.ct-cart-form {
+  display: block;
+}
+
+.zalo-chat-widget {
+  bottom: 80px !important;
+  right: 15px !important;
+}
+@media only screen and (max-width: 480px) {
+  .ct-title h2 {
+    font-size: 18px;
+  }
+  .archive .form-group label {
+    text-align: left !important;
+  }
+  .form-group {
+    display: block !important;
+    text-align: center;
+  }
+}
