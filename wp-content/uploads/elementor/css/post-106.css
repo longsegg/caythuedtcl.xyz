@@ -1,0 +1,156 @@
+.elementor-106
+  .elementor-element.elementor-element-91842dd
+  > .elementor-container {
+  min-height: 605px;
+}
+.elementor-106
+  .elementor-element.elementor-element-91842dd
+  > .elementor-container:after {
+  content: "";
+  min-height: inherit;
+}
+.elementor-106 .elementor-element.elementor-element-91842dd {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-106
+  .elementor-element.elementor-element-91842dd
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-106
+  .elementor-element.elementor-element-91842dd
+  > .elementor-shape-bottom
+  .elementor-shape-fill {
+  fill: #07111d;
+}
+.elementor-106
+  .elementor-element.elementor-element-91842dd
+  > .elementor-shape-bottom
+  svg {
+  width: calc(300% + 1.3px);
+  height: 160px;
+}
+.elementor-106 .elementor-element.elementor-element-e56d04e {
+  text-align: center;
+}
+.elementor-106
+  .elementor-element.elementor-element-e56d04e
+  .elementor-heading-title {
+  color: #ffba28;
+  font-family: "Arial", Sans-serif;
+}
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-toggle
+  .elementor-tab-title {
+  border-width: 0px;
+  border-color: #ffffff;
+}
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-toggle
+  .elementor-tab-content {
+  border-width: 0px;
+  border-bottom-color: #ffffff;
+  color: #ffffff;
+}
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-toggle
+  .elementor-toggle-item:not(:last-child) {
+  margin-bottom: 0px;
+}
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-toggle-title,
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-toggle-icon {
+  color: #ffffff;
+}
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-tab-title.elementor-active
+  a,
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  .elementor-tab-title.elementor-active
+  .elementor-toggle-icon {
+  color: #ffba28;
+}
+.elementor-106
+  .elementor-element.elementor-element-720cb41
+  > .elementor-widget-container {
+  background-color: rgba(2, 1, 1, 0.6);
+}
+.elementor-106 .elementor-element.elementor-element-51a5f8d {
+  text-align: center;
+}
+.elementor-106
+  .elementor-element.elementor-element-51a5f8d
+  .elementor-heading-title {
+  color: #ffffff;
+  font-size: 17px;
+}
+.elementor-106
+  .elementor-element.elementor-element-51a5f8d
+  > .elementor-widget-container {
+  background-color: rgba(2, 1, 1, 0);
+}
+.elementor-106
+  .elementor-element.elementor-element-e15522c:not(.elementor-motion-effects-element-type-background),
+.elementor-106
+  .elementor-element.elementor-element-e15522c
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #07111d;
+}
+.elementor-106 .elementor-element.elementor-element-e15522c {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-106
+  .elementor-element.elementor-element-e15522c
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-106
+  .elementor-element.elementor-element-6e9374c
+  .elementor-element-populated
+  a {
+  color: rgba(149, 0, 0, 0);
+}
+.elementor-106 .elementor-element.elementor-element-983f7c8 {
+  text-align: center;
+}
+.elementor-106
+  .elementor-element.elementor-element-983f7c8
+  .elementor-heading-title {
+  color: #b19527;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.elementor-106
+  .elementor-element.elementor-element-96a1e4e:not(.elementor-motion-effects-element-type-background),
+.elementor-106
+  .elementor-element.elementor-element-96a1e4e
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #07111d;
+}
+.elementor-106 .elementor-element.elementor-element-96a1e4e {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-106
+  .elementor-element.elementor-element-96a1e4e
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+@media (max-width: 767px) {
+  .elementor-106 .elementor-element.elementor-element-e56d04e {
+    text-align: left;
+  }
+  .elementor-106
+    .elementor-element.elementor-element-e56d04e
+    .elementor-heading-title {
+    font-size: 23px;
+  }
+}
