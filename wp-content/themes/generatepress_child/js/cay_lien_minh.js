@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", function () {
 let cay_cao_thu = {
   diem_hien_tai: 0,
   mod: "Rank Đơn",
-  mod_price: 13000,
+  mod_price: ,
   diem_mong_muon: 0,
   cay_sieu_toc: 0,
   amount: 0,
