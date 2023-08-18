@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", function () {
   cay_phan_hang.so_tran_thue_choose();
   cay_phan_hang.check_sieu_toc();
   cay_phan_hang.check_one_champ();
-  cay_phan_hang.phan_hang_add_cart();
+
   jQuery('input[name="142-ct-rank-mod"]').on("click", function () {
     cay_elo.rank_mod_choose();
   });
@@ -576,33 +576,6 @@ let cay_phan_hang = {
     jQuery(".124-ct-form-price>p.price>span.amount").html(
       formatPrice(cay_phan_hang.amount)
     );
-  },
-  phan_hang_add_cart: function () {
-    jQuery("button.124-ct-button.ct-button").on("click", function (e) {
-      e.preventDefault();
-      if (cay_phan_hang.so_tran_thue > 10 || cay_phan_hang.so_tran_thue <= 0) {
-        arlet("Số trận phải nhỏ hơn 10");
-        return;
-      }
-      jQuery
-        .ajax({
-          url: add_cart_ajax.ajax_url,
-          method: "POST",
-          data: {
-            action: "custom_add_to_cart",
-            id: "124",
-            price: cay_phan_hang.amount,
-            note: cay_phan_hang.note,
-          },
-        })
-        .done(function (response) {
-          if (response.error != "undefined" && response.error) {
-            return true;
-          } else {
-            window.location.href = add_cart_ajax.checkout_url;
-          }
-        });
-    });
   },
 };
 
