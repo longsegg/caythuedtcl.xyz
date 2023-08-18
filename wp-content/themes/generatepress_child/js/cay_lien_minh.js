@@ -44,22 +44,12 @@ let cay_cao_thu = {
   amount: 0,
   note: "",
   rank_mod_choose: function (input) {
-    let mod_1 = jQuery("input#158-ct-rank-don");
-    if (mod_1.is(":checked") == true) {
-      cay_cao_thu.rank_mod = 1;
-      cay_cao_thu.mod = "Rank Đơn";
-    }
-    let mod_2 = jQuery("input#158-ct-rank-dong");
-    if (mod_2.is(":checked") == true) {
-      cay_cao_thu.rank_mod = 2;
-      cay_cao_thu.mod = "Rank Động";
-    }
     let mod_3 = jQuery("input#158-ct-rank-dtcl");
     if (mod_3.is(":checked") == true) {
       cay_cao_thu.rank_mod = 3;
       cay_cao_thu.mod = "Rank ĐTCL";
     }
-    cay_cao_thu.mod_price = jQuery(input).val();
+    cay_cao_thu.mod_price = jQuery('input[name="158-ct-rank-mod"]').val();
     cay_cao_thu.cay_diem_amount();
   },
   check_diem_1: function () {
